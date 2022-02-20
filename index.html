@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CHALLENGE-01</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      button {
+        border: none;
+        cursor: pointer;
+      }
+      html {
+        font-family: Helvetica, sans-serif;
+      }
+      /* hero section  */
+      #hero {
+        height: 500px;
+        background-color: #f1f3ff;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .hero-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      /* hero left  */
+      .hero-container .left {
+        margin-left: 136px;
+        margin-right: 32px;
+      }
+      .hero-container .left h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 150%;
+      }
+      .hero-container .left p {
+        margin: 16px 0;
+        width: 468px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .hero-container .left button {
+        background: #5cb85f;
+        border-radius: 2px;
+        padding: 8px 12px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+      }
+      /* hero right  */
+      .hero-container .right {
+        width: 704px;
+        height: 407px;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+      }
+      .hero-container .right img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      .hero-container .right::before {
+        content: ".";
+        border-radius: 60px 0px 0px 0px;
+        width: 100%;
+        height: 243px;
+        background: #0d28a6;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="hero">
+      <div class="hero-container">
+        <div>
+          <div class="left">
+            <div>
+              <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+              <p>
+                Selamat datang di Binar Car Rental. Kami menyediakan mobil
+                kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+                kebutuhanmu untuk sewa mobil selama 24 jam.
+              </p>
+              <button>Mulai Sewa Mobil</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="right">
+            <img
+              src="assets/image/Mercedes Car EQC 300kW Edition - 900x598 1.png"
+              alt="Mercedes Car EQC 300kW Edition - 900x598 1.png"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
