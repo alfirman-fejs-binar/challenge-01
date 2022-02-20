@@ -19,7 +19,61 @@
       html {
         font-family: Helvetica, sans-serif;
       }
-      /* hero section  */
+      body {
+        height: 1000vh;
+      }
+
+      /* header section */
+      header {
+        width: 100%;
+        position: fixed;
+        top: 24px;
+        z-index: 2;
+        margin: 0 auto;
+        padding: 0 136px;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      nav .left {
+        width: 100px;
+        height: 34px;
+        background-color: #0d28a6;
+      }
+
+      nav .right ul {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+      }
+
+      nav .right ul li {
+        list-style: none;
+      }
+
+      nav .right ul li a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: black;
+      }
+
+      nav .right ul li .register {
+        padding: 8px 12px;
+        background: #5cb85f;
+        border-radius: 2px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+        cursor: pointer;
+      }
+
+      /* hero section */
       #hero {
         height: 500px;
         background-color: #f1f3ff;
@@ -84,6 +138,30 @@
     </style>
   </head>
   <body>
+    <header>
+      <nav>
+        <div class="left"></div>
+        <div class="right">
+          <ul>
+            <li>
+              <a href="#">Our Services</a>
+            </li>
+            <li>
+              <a href="#">Why Us</a>
+            </li>
+            <li>
+              <a href="#">Testimonial</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="register">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <section id="hero">
       <div class="hero-container">
         <div>
