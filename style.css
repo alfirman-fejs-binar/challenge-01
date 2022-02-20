@@ -271,6 +271,75 @@ nav .right ul li .register {
   line-height: 20px;
 }
 
+/* testimonial */
+
+#testimonial {
+  overflow: hidden;
+}
+
+#testimonial h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#testimonial p {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#testimonial .mySwiper {
+  margin-top: 40px;
+  padding-bottom: 56px;
+}
+
+#testimonial .swiper-slide {
+  background: #f1f3ff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 270px;
+  width: 619px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 46px;
+  padding: 0 32px;
+}
+
+#testimonial .swiper-slide > img {
+  border-radius: 50%;
+}
+
+#testimonial .swiper-slide > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 415px;
+}
+
+#testimonial .swiper-slide > div > div {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#testimonial .swiper-slide > div > p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#testimonial .swiper-slide > div > span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 /* banner */
 #banner {
   padding: 0 136px;
@@ -299,7 +368,7 @@ nav .right ul li .register {
   line-height: 20px;
 }
 #banner > div > button {
-  margin: 40px auto 0 auto;
+  margin: 52px auto 0 auto;
   padding: 8px 12px;
   background: #5cb85f;
   border-radius: 2px;
