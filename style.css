@@ -20,6 +20,14 @@
   background-color: #5cb85f;
 }
 
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 button {
   border: none;
   cursor: pointer;
@@ -261,6 +269,52 @@ nav .right ul li .register {
 }
 
 #why-us > div > .card > p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* faq */
+#faq {
+  padding: 0 136px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#faq > .left > h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#faq > .left > p {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#faq > .right {
+  width: 668px;
+}
+
+#faq ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+#faq button {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  border-radius: 4px;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
