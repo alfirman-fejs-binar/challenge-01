@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 1020px;
+}
+
 .alert-warning {
   background-color: #f9cc00;
 }
